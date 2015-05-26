@@ -20,6 +20,7 @@
         <name>Sonatype OSS Snapshots</name>
         <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
   	</pluginRepository>
+  	
 	</pluginRepositories>
 	<dependencies>
 
@@ -244,6 +245,11 @@
 				<groupId>net.wouterdanes.docker</groupId>
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>3.1-SNAPSHOT</version>
+				 <configuration>
+      <userName>preetick</userName>
+      <password>DocPassword2015</password>
+      <email>preetikhodanpur038@gmail.com</email>
+    </configuration>
 				<executions>
 					<execution>
 						<id>build</id>
