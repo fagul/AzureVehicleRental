@@ -5,7 +5,7 @@
 	<groupId>com.mindtree.awsfinalpresentation.controller</groupId>
 	<artifactId>VehiclePresentation</artifactId>
 	<packaging>war</packaging>
-	<version>1.8.0</version>
+	<version>1.0.0</version>
 	<name>${project.artifactId}</name>
 	<properties>
 		<org.springframework.version>3.2.1.RELEASE</org.springframework.version>
@@ -264,7 +264,7 @@
 											<file>${project.basedir}/src/main/docker/start_up.sh</file>
 										</artifact>
 									</artifacts>
-									<nameAndTag>nijisha/mt-mvn-vr-presentation:${project.version}</nameAndTag>
+									<nameAndTag>preetick/vehiclep:${project.version}</nameAndTag>
 									<!-- <registry>registry.hub.docker.com</registry> -->
 									<push>true</push>
 								</image>
@@ -281,7 +281,7 @@
 								<image>
 									<id>${project.artifactId}</id>
 									<tags>
-										<tag>nijisha/mt-mvn-vr-presentation:latest</tag>
+										<tag>preetick/vehiclep:latest</tag>
 									</tags>
 									<push>true</push>
 								</image>

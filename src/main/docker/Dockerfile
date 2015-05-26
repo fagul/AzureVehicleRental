@@ -1,6 +1,6 @@
-FROM nijisha/mt-vr-env
+FROM preeti/jvcatenv
 
-MAINTAINER M1018339
+MAINTAINER M1017042
 
 # Location of presentation URL
 ADD VehiclePresentation.war /webapps/ 
