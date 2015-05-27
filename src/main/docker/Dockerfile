@@ -1,4 +1,4 @@
-FROM preeti/jvcatenv:v1
+FROM preeti/jvcatenv
 
 MAINTAINER M1017042
 
