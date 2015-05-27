@@ -1,4 +1,4 @@
-FROM preeti/jvcatenv
+FROM nijisha/mt-vr-env
 
 MAINTAINER M1017042
 
