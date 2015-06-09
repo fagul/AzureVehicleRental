@@ -71,7 +71,8 @@ public class RentalController {
 	 * public static String URL =
 	 * com.mindtree.awsfinalpresentation.controller.URL .getString("URL");
 	 * //$NON-NLS-1$
-	 */public static String URL;
+	 */
+	public static String URL;
 
 	public static String ADMIN_USERNAME = AdminDetails
 			.getString("ADMIN_USERNAME"); //$NON-NLS-1$
@@ -318,7 +319,6 @@ public class RentalController {
 				String xmlString = marshel.marshel(context, login);
 				// URL = "http://localhost:8080/VehicleBusiness/vehiclerental";
 
-				URL = URL + "/decide.ren";
 
 				ClientResponse response = sendRequest.sendPostRequest(URL,
 						xmlString);
