@@ -16,7 +16,7 @@
 	</properties>
 	<pluginRepositories>
 	  <pluginRepository>
-        <id>sonatype-oss-sna
+      <id>sonatype-oss-snapshots</id>
         <name>Sonatype OSS Snapshots</name>
         <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
   	</pluginRepository>
