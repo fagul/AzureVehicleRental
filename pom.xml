@@ -266,7 +266,7 @@
 											<file>${project.basedir}/src/main/docker/start_up.sh</file>
 										</artifact>
 									</artifacts>
-									<nameAndTag>fagul/mt_presentation:${project.version}</nameAndTag>
+									<nameAndTag>fagul1/mt_presentation:${project.version}</nameAndTag>
 									<!-- <registry>registry.hub.docker.com</registry> -->
 									<push>true</push>
 								</image>
@@ -283,7 +283,7 @@
 								<image>
 									<id>${project.artifactId}</id>
 									<tags>
-										<tag>fagul/mt_presentation:latest</tag>
+										<tag>fagul1/mt_presentation:latest</tag>
 									</tags>
 									<push>true</push>
 								</image>
